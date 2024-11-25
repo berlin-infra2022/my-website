@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <!-- Adding devicon CDN for using https://devicon.dev/ -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Berlin Lee's Website</title>
+  <meta name="description" content="Berlin Lee Full Stack dev Portfolio" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img 
+          src="./assets/icon/profile.jpeg" 
+          alt="logo Image" 
+          class="main-header__logo-img border-radius__5" 
+        />
+      </div>
+      <h4 class="main-header__logo-text">Berlin Lee</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img 
+      alt="theme color tester" 
+      src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img border-radius__5" 
+    />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello, my friend 👋</span>
+         rgb(84, 179, 235)ading-primary__main">
+            &nbsp;
+          </span>
+          <br/ >
+          <span class="heading-primary__main u-margin-bottom-small" >I'm a Developer who's looking for a long-term & stable environment to deeply focus on Full Stack development.</span>
+          <br/>
+          <br/>
+          <span class="heading-primary__main">I also hold Azure Cloud certificate.</span>
+          <br/>
+          <a class="anchor" href="https://drive.google.com/file/d/1fZYKbqnSQBpYMpelnGPB3GgBseHK4SIm/view?usp=drive_link">Link to my Azure cert</a>
+        </h1>
+
+        <p class="btn-container">
+          <a class="btn btn-theme home-hero__btn-theme" href="./index.html#projects">Projects</a>
+          <a class="btn btn-inv home-hero__btn-theme" href="./index.html#contact">Contact</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About Me🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me & a list of my current skills.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                I'm from a System Integrator background, with a passion to focus on Full Stack development.
+              </span>
+              <span>
+                Let's create web applications together as a team.
+              </span>
+              <br>
+              <span><strong style="font-size: 32px; color: rgba(var(--themeColor),1.0);">Full Stack Dev</strong></span>
+              <span><strong style="font-size: 24px; color: rgba(var(--themeColor),0.7);">Frontend Dev</strong></span>
+              <span>HTML5 & CSS3</span>
+              <span>Sass (CSS3 Pre-processor)</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <br/>
+              <span><strong style="font-size: 24px; color: rgba(var(--themeColor),0.7);">Backend Dev</strong></span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>POSTMAN</span>
+              <span>Webpack</span>
+              <span>TypeScript</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>Knex.js</span>
+              <span>Docker</span>
+              <span>Sequelize ORM</span>
+              <span>Linux</span>
+              <span>Bash</span>
+              <span>Python</span>
+            </p>
+          </div>
+          
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">HTML5</li>
+              <li class="about__skill">CSS3</li>
+              <li class="about__skill">Sass</li>
+              <li class="about__skill">JavaScript</li>
+              <li class="about__skill">React</li>
+              <li class="about__skill">POSTMAN</li>
+              <li class="about__skill">TypeScript</li>
+              <li class="about__skill">Webpack</li>
+              <li class="about__skill">Node.js</li>
+              <li class="about__skill">Express</li>
+              <li class="about__skill">MongoDB</li>
+              <li class="about__skill">PostgreSQL</li>
+              <li class="about__skill">Knex.js</li>
+              <li class="about__skill">Sequelize ORM</li>
+              <li class="about__skill">Git</li>
+              <li class="about__skill">Linux</li>
+              <li class="about__skill">Python</li>
+              <li class="about__skill">Docker</li>
+              <li class="about__skill">vscode</li>
+            </ul>
+          </div>
+        </div>
+        <p class="btn-container">
+          <a 
+            class="btn btn-theme about__btn-theme"
+            href="#projects"
+          >
+            My Side Projects
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <!-- <li class="skills-showcase__list-item">
+        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+      </li> -->
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-sass-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-typescript-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-express-original-wordmark"></i>
+      </li>  
+      <li class="skills-showcase__list-item">
+        <i class="devicon-webpack-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-npm-original-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-mongodb-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-knexjs-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-sequelize-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-postman-plain-wordmark colored"></i>
+      </li> 
+      <li class="skills-showcase__list-item">
+        <i class="devicon-linux-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-docker-plain-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-github-original-wordmark colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-homebrew-plain-wordmark colored"></i>
+      </li>          
+      <li class="skills-showcase__list-item">
+        <i class="devicon-vscode-plain-wordmark colored"></i>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of my demo projects:
+        </span>
+      </h2>
+
+      <!-- Demo Projects -->
+      <!-- 1. AI Full Stack Project -->
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+
+            <div class="projects__list-item-details">
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Project.1 AI Full Stack app deployed to Cloud SaaS 
+              </h3>
+              <h1 class="heading">Production link</h1>
+              <h1 class="heading u-margin-bottom-small">
+                <a class="anchor" href="https://www.ai-recognition-frontend.com/" target="_blank">https://www.ai-recognition-frontend.com/</a>
+              </h1>
+
+              <!-- <div class="projects__list-item-img-cont"> -->
+              <div class="align-left">
+                <img 
+                  src="./assets/images/react.jpg" 
+                  alt="react" 
+                  class="projects__list-item-img border-radius__5 u-margin-bottom-small" 
+                />
+              </div>
+
+              <div class="align-left">
+                <img 
+                  src="./assets/images/clarifai-api.jpeg" 
+                  alt="react" 
+                  class="projects__list-item-img border-radius__5 u-margin-bottom-small" 
+                />
+              </div>
+              
+              <div class="projects__list-item-img-cont_slide">
+
+                <div class="projects__list-item-img-cont">
+                  <h1 class="heading">AI Registration page</h1>
+                  <img 
+                    src="./assets/images/ai-fullstack-register.jpeg" 
+                    alt="ai-celebrity-detection" 
+                    class="projects__list-item-img border-radius__5"
+                  />
+                </div>
+                
+                <div class="projects__list-item-img-cont">
+                  <h1 class="heading">AI model - Celebrity Recognition</h1>
+                  <img 
+                    src="./assets/images/ai-fullstack-celebrity-detection.jpeg" 
+                    alt="ai-celebrity-detection" 
+                    class="projects__list-item-img border-radius__5"
+                  />
+                </div>
+
+                <div class="projects__list-item-img-cont">
+                  <h1 class="heading">AI model - Color Recognition</h1>
+                  <img 
+                    class="images"
+                    src="./assets/images/ai-fullstack-color-detection.jpeg" 
+                    alt="ai-color-detection" 
+                    class="projects__list-item-img border-radius__5"
+                
+                  />
+                </div>
+                <div class="projects__list-item-img-cont">
+                  <h1 class="heading">AI model - Age Recognition</h1>
+                  <img 
+                    class="images"
+                    src="./assets/images/ai-fullstack-age-detection.jpeg" 
+                    alt="ai-age-detection" 
+                    class="projects__list-item-img border-radius__5"
+                   
+                  />
+                </div>
+              </div>
+            
+              <!-- <hr class="projects__title-text-divider" /> -->
+              <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+                <span>
+                  <strong>Technologies: React, Node, Express, Knex.js SQL builder, PostgreSQL</strong>
+                </span>
+                <span>
+                  This is my demo Cloud SaaS AI Full Stack app - part1 React.js
+                </span>
+                <span>Frontend Register Page has been Securely validated</span>
+                <span>AI Celebrity Detection</span>
+                <span>AI Color Detection</span>
+                <span>AI Age Detection</span>
+              </p>
+              <p class="btn-container">
+                <a class="btn btn-theme projects__btn-theme"
+                href="https://www.ai-recognition-frontend.com"
+                target="_blank"
+                >
+                  Live Link
+                </a>
+                <a class="btn btn-inv projects__btn-inv"
+                  href="https://github.com/PhoenixYork166/AI-Recognition-React"
+                  target="_blank"
+                >
+                  Code Link
+                </a>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. AI Full Stack Node.js Project -->
+      <div class="projects__list-item projects__list-item--inv">
+        <div class="projects__list-item-details">
+          <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+          Project.2 AI Node.js with PostgreSQL (Knex)
+          </h3>
+
+          <div class="projects__list-item-img-cont">
+            <img 
+              class="images"
+              src="./assets/images/Node.js_logo.svg" 
+              alt="Project Image" 
+              class="projects__list-item-img border-radius__5"
+            />
+          </div>
+
+          <div class="projects__list-item-img-cont">
+            <img 
+              class="images"
+              src="./assets/images/Clarifai-Face-Detection.jpeg" 
+              alt="Project Image" 
+              class="projects__list-item-img border-radius__5"
+            />
+          </div>
+
+          <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+            <span>
+              <strong>Technologies used: Node.js, Express, Knex.js SQL builder, PostgreSQL</strong>
+            </span>
+
+            <span>
+              This is my demo Node.js app integrated with Clarifai API
+            </span>
+            <span>
+              Secured Backend Controllers with Json Web Token
+            </span>
+            <span>
+              Saving user submitted images processed by AI to Node.js server 'user_images' folder 
+            </span>
+            <span>
+              Puppeteer PDF Web Scraper to store files in 'user-pdf' folder 
+            </span>
+          </p>
+
+          <p class="btn-container">
+            <a 
+                class="btn btn-theme projects__btn-theme"
+                href="https://ai-recognition-backend.onrender.com/"
+                target="_blank"
+                >
+                  Live Link
+            </a>
+            <a 
+              class="btn btn-inv projects__btn-inv"
+              href="https://github.com/PhoenixYork166/AI-Recognition-Nodejs-Puppeteer-jwt"
+              target="_blank"
+            >
+              Code Link
+            </a>
+          </p>
+        </div>
+
+        <div class="projects__list-item-count">
+          <span class="projects__list-item-count-num"> 2 </span>
+          <span class="projects__list-item-count-line"> </span>
+          <span class="projects__list-item-count-end-dot"> </span>
+        </div>
+      </div>
+
+      <!-- 3. Docker React Node Express PostgreSQL -->
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1</span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"></span>
+            </div>
+
+            <div class="projects__list-item-details">
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                    Project.3 Docker-compose React, Node, Express, PostgreSQL
+              </h3>
+
+              <h2 class="inner-font">Docker-composed AI Full Stack app</h2>
+              <div class="projects__list-item-img-cont">
+                <img 
+                  src="./assets/images/docker_compose.png" 
+                  alt="Project Image" 
+                  class="projects__list-item-img border-radius__5" 
+                />
+              </div>
+
+                <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+                  <span>
+                    This is my AI Dockerized Full Stack app.
+                  </span>
+                </p>
+
+                <p class="btn-container">
+                    <a class="btn btn-theme projects__btn-theme"
+                    href="https://github.com/PhoenixYork166/AI-React-Node-Postgres-Docker"
+                    target="_blank"
+                    >
+                      Live Link
+                    </a>
+                    <a class="btn btn-inv projects__btn-inv"
+                      href="https://github.com/PhoenixYork166/AI-React-Node-Postgres-Docker"
+                      target="_blank"
+                    >
+                      Code Link
+                    </a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <!-- 4. Docker Full Stack app Project -->
+      <div class="projects__list-item projects__list-item--inv">
+        <div class="projects__list-item-details">
+          <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+            Project.4 Little MERN app demo
+          </h3>
+          <h2 class="inner-font">MongoDB-Express-React-Node.js</h2>
+            <img 
+              src="./assets/images/mern-dev.png" 
+              alt="mern" 
+              class="projects__list-item-img border-radius__5" 
+            />
+        </div>
+
+        <p class="text-primary projects__list-item-text-primary">
+          <span>
+            <strong>Technologies: Docker, React, Node, Express, MongoDB</strong>
+          </span>
+          <span>
+            This is my demo MERN project.
+          </span>
+          <span>
+            MongoDB-Express-React-Node.js
+          </span>
+          <span>
+            Please see enclosed documentations on GitHub.
+          </span>
+        </p>
+
+        <p class="btn-container">
+          <a 
+            class="btn btn-theme projects__btn-theme"
+            href="https://little-mern-react.onrender.com/"
+            target="_blank"
+          >
+            Live Link
+          </a>
+          <a 
+            class="btn btn-inv projects__btn-inv"
+            href="https://github.com/PhoenixYork166/Little-MERN-practice-prod"
+            target="_blank"
+          >
+            Code Link
+          </a>
+        </p>
+
+        <div class="projects__list-item-count">
+          <span class="projects__list-item-count-num"> 2 </span>
+          <span class="projects__list-item-count-line"> </span>
+          <span class="projects__list-item-count-end-dot"> </span>
+        </div>
+      </div>
+
+      <!-- 5. Docker MongoDB Express Node React -->
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1</span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"></span>
+            </div>
+
+            <div class="projects__list-item-details">
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                    Project.5 Docker-compose MongoDB, Express, React, Node
+              </h3>
+
+              <h2 class="inner-font">Docker-composed AI Full Stack app</h2>
+              <div class="projects__list-item-img-cont u-margin-bottom-small">
+                
+                <img 
+                  src="./assets/images/node-mongodb-react-docker.jpg" 
+                  alt="docker-mern-demo" 
+                  class="projects__list-item-img border-radius__5" 
+                />
+              </div>
+
+              <h2 class="inner-font">Illustration of Dockerized Full Stack app</h2>
+              <div class="projects__list-item-img-cont">
+                <img 
+                  src="./assets/images/microservices-illustration.png" 
+                  alt="docker-mern-demo" 
+                  class="projects__list-item-img border-radius__5" 
+                />
+              </div>
+
+              <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+                <span>
+                  This is my Docker-composed MERN demo.
+                </span>
+              </p>
+
+              <p class="btn-container">
+                <a class="btn btn-theme projects__btn-theme"
+                href="https://github.com/PhoenixYork166/Docker-Node-MongoDB-React"
+                target="_blank"
+                >
+                  Live Link
+                </a>
+                <a class="btn btn-inv projects__btn-inv"
+                  href="https://github.com/PhoenixYork166/Docker-Node-MongoDB-React"
+                  target="_blank"
+                >
+                  Code Link
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. React Responsive website -->
+      <div class="projects__list-item projects__list-item--inv">
+        <div class="projects__list-item-details">
+          <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+            Project.6 React JSX Responsive website
+          </h3>
+
+          <div class="projects__list-item-img-cont">
+            <img 
+              src="./assets/images/React-website.jpeg" 
+              alt="Project Image" 
+              class="projects__list-item-img border-radius__5" 
+            />
+          </div>
+
+          <p class="text-primary projects__list-item-text-primary">
+            <span>
+              This is my React Responsive website demo.
+            </span>
+          </p>
+
+          <p class="btn-container">
+            <a 
+              class="btn btn-theme projects__btn-theme"
+              href="https://evertex-demo.onrender.com/"
+              target="_blank"
+            >
+              Live Link
+            </a>
+            <a 
+              class="btn btn-inv projects__btn-inv"
+              href="https://evertex-demo.onrender.com/"
+              target="_blank"
+            >
+              Code Link
+            </a>
+          </p>
+
+          <div class="projects__list-item-count">
+            <span class="projects__list-item-count-num"> 2 </span>
+            <span class="projects__list-item-count-line"> </span>
+            <span class="projects__list-item-count-end-dot"> </span>
+          </div>
+
+        </div>
+      
+      </div>
+            
+      <!-- 7. TypeScript demo -->
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1</span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"></span>
+            </div>
+
+            <div class="projects__list-item-details">
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Project.7 Illustrated TypeScript learning
+              </h3>
+
+              <h2 class="inner-font">Learnt TypeScript</h2>
+              <div class="projects__list-item-img-cont u-margin-bottom-small">
+                <img 
+                  src="./assets/images/TypeScript.png" 
+                  alt="typescript-demo" 
+                  class="projects__list-item-img border-radius__5" 
+                />
+              </div>
+
+              <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+                <span>
+                  This is my TypeScript demo.
+                </span>
+              </p>
+
+              <p class="btn-container">
+                <a class="btn btn-theme projects__btn-theme"
+                href="https://github.com/PhoenixYork166/TypeScript-Concepts"
+                target="_blank"
+                >
+                  Live Link
+                </a>
+                <a class="btn btn-inv projects__btn-inv"
+                  href="https://github.com/PhoenixYork166/TypeScript-Node"
+                  target="_blank"
+                >
+                  Code Link
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Python learning -->
+      <div class="projects__list-item projects__list-item--inv">
+        <div class="projects__list-item-details">
+          <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+          Project.8 Python learning illustration
+          </h3>
+          <div class="projects__list-item-img-cont">
+            <img 
+              src="./assets/images/Python-logo.png" 
+              alt="python-demo" 
+              class="projects__list-item-img border-radius__5" 
+            />
+          </div>
+          <p class="text-primary projects__list-item-text-primary">
+            <span>
+              This is my Python illustrated learning project.
+            </span>
+          </p>
+          <p class="btn-container">
+            <a 
+              class="btn btn-theme projects__btn-theme"
+              href="https://github.com/PhoenixYork166/Python-Learnt"
+              target="_blank"
+            >
+              Live Link
+            </a>
+            <a 
+              class="btn btn-inv projects__btn-inv"
+              href="https://github.com/PhoenixYork166/Python-Learnt"
+              target="_blank"
+            >
+              Code Link
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- 9. Git Learning Guide -->
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1</span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"></span>
+            </div>
+
+            <div class="projects__list-item-details">
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Project.9 Illustrated Git learning
+              </h3>
+
+              <h2 class="inner-font">Learnt Git</h2>
+              <div class="projects__list-item-img-cont u-margin-bottom-small">
+                <img 
+                  src="./assets/images/GitHub.jpeg" 
+                  alt="typescript-demo" 
+                  class="projects__list-item-img border-radius__5" 
+                />
+              </div>
+
+              <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+                <span>
+                  This is my Git demo.
+                </span>
+              </p>
+
+              <p class="btn-container">
+                <a class="btn btn-theme projects__btn-theme"
+                href="https://github.com/PhoenixYork166/git-illustrated"
+                target="_blank"
+                >
+                  Live Link
+                </a>
+                <a class="btn btn-inv projects__btn-inv"
+                  href="https://github.com/PhoenixYork166/git-illustrated"
+                  target="_blank"
+                >
+                  Code Link
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Sequelize ORM learning -->
+      <div class="projects__list-item projects__list-item--inv">
+        <div class="projects__list-item-details">
+          <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+          Project.10 Sequelize ORM illustration
+          </h3>
+          <div class="projects__list-item-img-cont">
+            <img 
+              src="./assets/images/sequelize-orm.png" 
+              alt="python-demo" 
+              class="projects__list-item-img border-radius__5" 
+            />
+          </div>
+          <p class="text-primary projects__list-item-text-primary u-margin-bottom-small">
+            <span>
+              This is my illustrated Sequelize ORM demo.
+            </span>
+          </p>
+          <p class="btn-container">
+            <a 
+              class="btn btn-theme projects__btn-theme"
+              href="https://github.com/PhoenixYork166/Node-MySQL-Sequelize-ORM"
+              target="_blank"
+            >
+              Live Link
+            </a>
+            <a 
+              class="btn btn-inv projects__btn-inv"
+              href="https://github.com/PhoenixYork166/Node-MySQL-Sequelize-ORM"
+              target="_blank"
+            >
+              Code Link
+            </a>
+          </p>
+        </div>
+      </div>
+
+      </section>
+
+      <section id="contact" class="contact main-section">
+          <div class="main-container">
+            <h2 class="heading-secondary">
+              <span class="heading-secondary__sm contact-text"> Contact 📞</span>
+              <span class="heading-secondary__main contact-text">
+                Feel free to Contact me
+              </span>
+              <br>
+              <br>
+              <span class="heading-secondary__main contact-text">Mobile:</span>
+              <span class="heading-secondary__main contact-text">+852 5490 2387</span>
+              <br>
+              <br>
+              <span class="heading-secondary__main contact-text">Email: blee3344@alumni.sydney.edu.au</span>
+              <span class="contact-text"></span>
+            </h2>
+          </div>
+        </section>
+  
+  <!-- <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/PhoenixYork166" 
+            target="_blank" 
+            class="main-footer__social-link"
+          >
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="github" 
+              class="main-footer__social-link-icon border-radius__5" 
+            />
+          </a>
+          <a href="#" target="_blank" class="main-footer__social-link">
+            <img 
+            src="./assets/icons8-instagram-48.png" 
+            alt="instagram" 
+            class="main-footer__social-link-icon border-radius__5" 
+            />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img 
+            src="./assets/icons8-twitter-50.png" 
+            alt="twitter" 
+            class="main-footer__social-link-icon border-radius__5" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" 
+              class="main-footer__social-link-icon border-radius__5" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img 
+            src="./assets/icons8-pinterest-64.png" 
+            alt="" 
+            class="main-footer__social-link-icon border-radius__5" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <a target="_blank" href="#">Full Stack Dev Portfolio</a>
+          <script>document.write(new Date().getFullYear())</script>. Made by
+          <a target="_blank" href="#">Berlin Lee</a>
+        </p>
+      </div>
+    </div>
+  </footer> -->
+
+  <script>
+    // for AI React app
+    $(document).ready(function(){
+    $('.projects__list-item-img-cont_slide').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      fade: true,
+      autoplay:true,
+      autoplaySpeed: 2000,
+    })
+    })
+
+    </script>
+  <script src="./script.js"></script>
+  
+</body>
+
+</html>
